@@ -42,5 +42,14 @@ cloud providers, and designing a simple cloud architecture diagram.
 - Writing professional technical documentation in Markdown
 
 ## Challenges Encountered
-(Personalize this — e.g., any command that gave unexpected output, or
-concepts from Chapter 2 that took extra research to fully understand.)
+One challenge I ran into was accidentally pasting an entire reference table
+(with labels and command descriptions) directly into the terminal instead
+of running each Linux command individually. This caused a string of "command
+not found" errors since the shell tried to interpret the extra text as
+commands. It taught me to slow down and copy only the exact command syntax
+one line at a time, rather than copying formatted notes wholesale. I also
+found it took some extra thought to clearly separate networking resources
+from IAM when documenting the components, since both deal with controlling
+access and connectivity in slightly overlapping ways — reviewing Chapter 2
+again helped clarify that networking is about connectivity itself, while
+IAM is specifically about permissions and identity.
