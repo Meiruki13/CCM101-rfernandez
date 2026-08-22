@@ -41,8 +41,3 @@ My GitHub portfolio is starting to actually look like something now — two
 labs in, and it's already showing more depth than just Lab 1 did on its
 own. It's no longer just one activity sitting alone; it's starting to read
 like an actual progression of skills.
-
-**Reference:**
-University of Eastern Pangasinan – College of Information Technology.
-(2026). *CCM101 – Cloud Computing, Preliminary Module, Chapter 2: Cloud
-Infrastructure, Cloud Technologies, and Professional Development.*
