@@ -23,10 +23,10 @@ Solutions Architect would.
 ## Linux Investigation & Cloud Migration Recommendation (Checkpoint 7)
 
 Findings from my KillerCoda environment:
-- **Operating System:** (paste your `cat /etc/os-release` result)
-- **CPU Information:** (paste your `lscpu` result)
-- **Memory:** (paste your `free -h` result)
-- **Disk Space:** (paste your `df -h` result)
+- **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
+- **CPU Information:** Intel Xeon E312xx (Sandy Bridge, IBRS update), BIOS model HVAG-9.6.0 PC (Q35 + ICH9, 2009), CPU @ 2.0GHz
+- **Memory:** 1.9Gi total, 416Mi used, 823Mi free, 1.5Gi available
+- **Disk Space:** 19G total on `/`, 5.4G used, 13G available (30% used)
 
 **If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?**
 
