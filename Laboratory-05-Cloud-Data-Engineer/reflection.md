@@ -15,6 +15,3 @@ Large companies can protect their data by keeping multiple copies across differe
 ### 5. How is your confidence in navigating the Linux command line growing?
 After completing five labs, I feel more comfortable using the Linux command line compared to when I first started. At the beginning, I was still getting used to basic commands like `ls` and `cd`, but now I can use Docker commands and manage containers through the terminal. Being able to deploy a working server using commands has made the terminal feel less intimidating and more useful.
 
-**Reference:**
-University of Eastern Pangasinan – College of Information Technology.
-(2026). *CCM101 – Cloud Computing, Midterm Module, Chapter 5.*
