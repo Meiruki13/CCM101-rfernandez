@@ -1,0 +1,5 @@
+| Storage Type | Description | Primary Use Case | Cloud Provider Example |
+|---|---|---|---|
+| Block Storage | Data is divided into fixed-size blocks, with each block having its own identifier. It is provided to a VM as a raw storage volume, while the operating system manages the file system and formatting. | Boot drives and high-performance workloads such as transactional databases that require fast and low-latency read/write operations | Amazon EBS, Azure Disk Storage, Google Persistent Disk |
+| File Storage | Data is organized as files within folders and directories. It can be accessed over a network using protocols such as NFS or SMB. | Shared storage that can be accessed by multiple users or VMs, such as applications that require a common network drive | Amazon EFS, Azure Files, Google Cloud Filestore |
+| Object Storage | Data is stored as individual objects inside a bucket. Each object includes its data, metadata, and a unique identifier, and can be accessed through HTTP/HTTPS and APIs such as S3. | Managing large amounts of unstructured data such as images, videos, backups, and archived files | Amazon S3, Azure Blob Storage, Google Cloud Storage |
