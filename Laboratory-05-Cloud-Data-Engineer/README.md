@@ -1,21 +1,49 @@
-Laboratory Activity 5: Mission 5 – The Cloud Data Engineer
-Mission Overview
-In this activity, I learned about the differences between Block, File, and Object Storage. I also deployed an S3-compatible object storage server using MinIO and Docker, created a storage bucket, and uploaded a file to test the deployment, simulating a real cloud data engineering task.
-Objectives
-- Understand the differences between Block, File, and Object Storage
-- Deploy an S3-compatible Object Storage server (MinIO) using Docker
-- Access a cloud service through a web interface using port forwarding
-- Create a storage bucket and upload files to the cloud
-- Document cloud storage operations using Markdown
-- Continue building a professional GitHub Cloud Computing Portfolio
-Tools Used
-- KillerCoda Playground (Ubuntu/Docker environment)
+# Laboratory Activity 5: Mission 5 – The Cloud Data Engineer
+
+## Mission Overview
+
+In this mission, I explored cloud storage and learned how object storage can be used to manage large amounts of data. I deployed MinIO using Docker, accessed its web console through KillerCoda, created a storage bucket, and uploaded a test file.
+
+## Objectives
+
+- Understand the differences between Block Storage, File Storage, and Object Storage
+- Deploy MinIO using Docker
+- Access a cloud storage service through port forwarding
+- Create a bucket and upload objects using MinIO
+- Document the deployment process using Markdown
+- Add the completed work to my GitHub Cloud Computing portfolio
+
+## Tools Used
+
+- KillerCoda
 - Docker
-- MinIO (S3-compatible object storage server)
-- GitHub (portfolio repository)
-Skills Learned
-- Understanding different cloud storage architectures and their use cases
-- Deploying a containerized service using Docker and environment variables
-- Accessing a cloud service through port forwarding using a specific port
-- Creating storage buckets and uploading objects through a web console
-- Writing clear technical deployment documentation using Markdown
+- MinIO
+- Linux Terminal
+- GitHub
+- Markdown
+
+## Skills Learned
+
+Through this activity, I learned how different cloud storage types are used for different purposes. I also gained experience deploying a cloud storage server with Docker and accessing it through a web browser.
+
+I learned how to create and manage a bucket in MinIO and upload files as objects. This activity also helped me become more comfortable with Linux commands, Docker containers, port forwarding, and documenting technical tasks using Markdown.
+
+## MinIO Deployment
+
+MinIO was deployed using Docker with ports `9000` and `9001`. Port `9001` was used to access the MinIO Web Console through KillerCoda's Traffic/Ports feature.
+
+The `elestio/minio` image was used because the `minio/minio` image specified in the laboratory instructions could not be pulled successfully in the KillerCoda environment.
+
+## Bucket Created
+
+The bucket created for this activity was:
+
+`client-photos`
+
+This bucket was used to store the test file required for the activity.
+
+## Conclusion
+
+This activity gave me a better understanding of how cloud object storage works in a practical environment. Deploying MinIO with Docker and creating a bucket helped me see how object storage can be used to manage large amounts of files such as photos.
+
+It also improved my confidence in using the Linux terminal and Docker commands. Overall, the activity helped me connect the concepts of cloud storage with an actual working deployment.
